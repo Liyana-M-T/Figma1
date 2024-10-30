@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("nav-list-items");
+          
+          if (x.style.display === "none") {
+            x.style.display = "flex"
+          } else {
+            x.style.display = "none"
+          }
+        }
+        </script>
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="nav-bar">
+                <img src="./Assets/images/house-building-logo-design-vector-27369355 1.png" alt="">
+                
+
+                <div class="top" id="myTop">
+                    <a href="#section-one">Home</a>
+                   <a href="#section-two">About Us</a>
+                   <a href="#section-3">Services</a>
+                    <a href="">Testimonial</a>
+                    <a href="#section-4">clients</a>
+                    </div>
+                        <button class="bclass">Contact Us</button>
+                </div>
+                
+                    <div class="responsive-navbar">
+                        <div class="topnav" id="myTopnav">
+                            <img src="./Assets/images/house-building-logo-design-vector-27369355 1.png" alt="">
+                        <ul id="nav-list-items">
+                             <li><a href="#section-one">Home</a></li>
+                             <li><a href="#section-two">About Us</a></li>
+                             <li><a href="#section-3">Services</a></li>
+                             <li><a href="#">Testimonial</a></li>
+                             <li><a href="#section-4">clients</a></li>
+                             <a href=""><button class="bclass">Contact Us</button></a>
+                        </ul>
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <div class="menu">
+                              <i class="fa fa-bars"></i></div>
+                            </a>
+                        </div>
+                    </div>
+                
+        </header>
+        <section>
+            <div id="section-one" class="section-one">
+
+                <div class="s1-content">
+                    <h1>Built Your Future Today</h1>
+                    <p>In id enim odio. Nunc aliquet diam tortor, at venenatis urna sagittis non. Suspendisse
+                        <br>sodales nulla sit amet sem condimentum, ac euismod nibh.
+                    </p>
+                    <button>Learn More</button>
+                </div>
+            </div>
+        </section>
+        <section>
+       <div id="section-two" class="section-two">
+                <div class="left">
+                    <img src="./Assets/images/building-construction-worker-site-with-architect 1.png" alt="">
+                </div>
+                <div class="right">
+                    <h1>About Us</h1>
+                    <p> Praesent quis tempor erat, sit amet euismod odio. Morbi dapibus mattis sapien ac vestibulum.
+                        Pellentesque quis pharetra ipsum. Integer sagittis lectus id pellentesque ultricies. Praesent at
+                        nulla nisl. Nullam iaculis ultrices elit a gravida. Nunc non fermentum est, at fringilla velit
+                    </p>
+                    <p> Praesent quis tempor erat, sit amet euismod odio. Morbi dapibus mattis sapien ac vestibulum.
+                        Pellentesque quis pharetra ipsum. Integer sagittis lectus id pellentesque ultricies. Praesent at
+                        nulla nisl. Nullam iaculis ultrices elit a gravida. Nunc non fermentum est, at fringilla velit
+                    </p>
+                    <button>Learn More</button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="section-3" class="section-3">
+                <h1>Services</h1>
+                <div class="image-container">
+                    <div class="img1">
+                        <img src="./Assets/images/office-buildings-1536x1024 1.png" alt="">
+                        <h2>Architectural Design</h2>
+                        <p>Praesent quis tempor erat, sit amet mod odio.Morbi dapibus mattis sapien ac vestibulum.
+                           Pellentesque quis pharetra ipsum. Integer  sagittis lectus id pellentesque
+                            ultricies. Integer sagittis lectus id pellentesque ultricies.
+                        </p>
+                        <button>Learn More</button>
+                    </div>
+                    <div class="img2">
+                        <img src="./Assets/images/a-young-asian-woman-walking-inside-a-modern-wooden-building-1536x1024 1.png"
+                            alt="">
+                        <h2>General Contracting</h2>
+                        <p>Praesent quis tempor erat, sit amet mod odio.Morbi dapibus mattis sapien ac vestibulum.
+                            Pellentesque quis pharetra ipsum. Integer  sagittis lectus id pellentesque
+                             ultricies. Integer sagittis lectus id pellentesque ultricies.
+                        </p>
+                        <button>Learn More</button>
+                    </div>
+                    <div class="img3">
+                        <img src="./Assets/images/forth-worth-modern-art-gallery-1536x1024 1.png" alt="">
+                        <h2>Reconstruction Services</h2>
+                        <p>Praesent quis tempor erat, sit amet mod odio.Morbi dapibus mattis sapien ac vestibulum.
+                            Pellentesque quis pharetra ipsum. Integer  sagittis lectus id pellentesque
+                             ultricies. Integer sagittis lectus id pellentesque ultricies.
+                        </p>
+                        <button>Learn More</button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="section-4"  class="section-4">
+                <h1>Our Clients</h1>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./Assets/images/istockphoto-1312188095-612x612 2.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./Assets/images/images 1.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./Assets/images/istockphoto-1312188095-612x612 2.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./Assets/images/images 1.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./Assets/images/istockphoto-1312188095-612x612 2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="section-5" class="section-5">
+                <h1>Contact Us</h1>
+                <div class="lr">
+                    <div class="left-section2">
+                        <form action="" autocomplete="off">
+
+                            <div class="input-group">
+                                <label for="Full-Name"> Full Name</label>
+                                <input type="text" id=" Full-Name" required>
+                            </div>
+                            <div class="input-group">
+                                <label for="Email">Email Address</label>
+                                <input type="email" id="Email" required>
+                            </div>
+                            <div class="input-group">
+                                <label for="Comment">Comments</label>
+                                <textarea name="Comment" id="Comment" cols="50" rows="3"></textarea>
+                            </div>
+                            <button>Send Message</button>
+                        </form>
+                    </div>
+                    <div class="right-section2">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31326.50360358032!2d76.07091199999999!3d11.052646399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1723617416765!5m2!1sen!2sin"
+                            width="632" height="419" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section>
+            <div id="section-6"   class="section-6">
+
+                <img src="./Assets/images/house-building-logo-design-vector-27369355 1.png" alt="">
+                <div class="link">
+                    <h1>Quick Links</h1>
+                    <div class="link1">
+                    <nav>
+                        <a href="">Home</a>
+                        <a href="">About Us</a>
+                        <a href="">Contact</a>
+                    </nav></div>
+                </div>
+                <div class="link">
+                    <h1>Services</h1>
+                    <nav>
+                        <a href="">Architectural Design</a>
+                        <a href="">General Contracting</a>
+                        <a href="">Reconstruction Services</a>
+                    </nav>
+                </div>
+                <div class="link">
+                    <h1>Address</h1>
+                    <nav>
+                        <a href="">Email:Demo@gmail.com</a>
+                        <a href="">Number:+91 9894656362</a>
+                        <a href="">Location:San Francisco,USA</a>
+                    </nav>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright © 2022-2023 Liyana All rights reserved.</p>
+    </footer>
+    <div>
+
+
+</body>
+<script>
+    var swiper = new Swiper(".swiper", {
+        spaceBetween: 30,
+        breakpoints: {
+            0: {
+                slidesPerView: 2,
+            },
+            577: {
+                slidesPerView: 3,
+            },
+    },
+        freeMode: true,
+        loop: true,
+        autoplay: {
+             delay: 2500,
+             disableOnInteraction: false,
+         },
+    })
+</script>
+
+
+</html>
